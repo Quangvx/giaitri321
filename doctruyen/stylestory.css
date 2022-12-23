@@ -1,0 +1,141 @@
+.main {
+    background-image: url(../assets/img/img-background/br.png);
+}
+/* ================ Header ================ */
+.header {
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    background: #08a8e8;
+}
+
+
+.body {
+    background-color: #fff;
+    height: 1000px;
+ 
+}
+
+.navnar_top {
+    display: flex;
+    align-items: center;
+    height: 27px;
+    border: 1px solid #e5e5e5;
+    margin: 1px 0;
+    background-color: #f5f5f5;
+}
+
+.navnar_top__link {
+    display: inline-block;
+    background-image: url(../assets/img/img-background/crumb_arrow.png);
+    background-repeat: no-repeat;
+    background-position: center right;
+    height: var(--height-navnar_top);
+    min-width: 40px;
+    text-decoration: none;
+    /* line-height: var(--height-navnar_top); */
+    padding: 6px 16px 6px 6px ;
+  
+
+}
+
+.navnar_top__link + .navnar_top__link  {
+    margin-left: 6px;
+    padding-left: 0;
+
+}
+
+.block_info-wapper {
+    display: flex;
+    position: relative;
+}
+.post_info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 5px 10px 10px;
+    background-color: #f5f5f5;
+    border: 1px solid #e5e5e5;
+    height: 81px;
+}
+
+.block_info-img {
+    height: 57px ;
+    width: 57px;
+
+}
+
+.block_info-imgShadown {
+    position: absolute;
+    bottom: -10px;
+
+}
+
+.block_info {
+    padding-left: 10px;
+   
+}
+
+.info-title {
+   margin: 0;
+   font-size: 1.6rem;
+   color: #666;
+   margin-bottom: 4px;
+}
+
+.info__time {
+    margin: 0;
+    font-size: 1.1rem;
+    color: #888;
+}
+
+.post_info .author {
+    font-size: 1.1rem;
+    color: #888 ;
+}
+
+.go_down {
+   margin-right: 10px;
+}  
+
+.container {
+font-size: 1.3rem;
+   background: var(--background-color-story);
+}
+
+.container-hearder {
+     
+}
+.container-hearder__title {
+    margin: 3px 0;
+}
+.container-hearder__title span  {
+    color: #ff0000;
+  
+}
+
+.container-hearder__author {
+    font-size: 1.3rem;
+    color: #5b5b5b;
+    margin: 3px 0 ;
+}
+.container-hearder__author strong{
+
+}
+
+.container-hearder__status {
+    font-size: 1.3rem;
+     
+}
+
+.container-hearder__src  span {
+   color: #ff0000;
+   font-weight: bold;
+} 
+
+.container-hearder-blockStar {
+    margin-top: 6px;
+    text-align: center;
+
+}

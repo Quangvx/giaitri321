@@ -1,0 +1,290 @@
+.main {
+    width: 100%;
+
+}
+
+.wapper{
+    border-radius: 4px;
+    background-color: var(--white-color);
+    padding: 2px;
+    box-shadow: 0 0 11px #a09d9d;
+  
+}
+.header{
+  
+
+}
+.header__background{
+    position: sticky;
+    width: 100%;
+    height: 141px;
+    background-color: #ccf7ff;
+    background-image: url("./logo.gif");
+    background-repeat: repeat-x;
+    /* background-position-x: 50% ;
+    background-position-y:top; */
+    background-size: 11%;
+    border-radius: 4px;
+   
+    margin: 1px 0;
+    border: 1px solid #88beff ;
+    
+
+   
+}
+.header__logo{
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+   
+
+
+
+}
+.header__logo-img{
+
+}
+.header__logo-title{
+    font-size: 1.5rem;
+    margin: 0;
+    color: #0066FF;
+    text-transform: uppercase;
+    text-align: center;
+
+
+}
+.header__logo-link{
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: #ff0000;
+    display: block;
+    width: 100%;
+    text-align: center;
+
+
+}
+.header__logo-link:hover {
+    text-decoration: underline;
+}
+.annount{
+    border: 1px solid #e1e1e1;
+    padding: 10px;
+    text-align: justify;
+    font-size: 1.6rem;
+    color: var(--text-color);
+    line-height: 2.8rem;
+}
+.annount__text{
+    
+}
+.annount__time{
+    color: var(--red-color);
+    font-weight: 600;
+}
+.annount__text-second{
+    
+}
+.annount__text-link{
+    text-decoration: none;
+   
+}
+.annount__text-weight{
+    font-weight: 600;
+
+}
+.annount__web-link-opera-4-5{
+
+}
+.annount__web-link-opera-8-0{
+
+}
+.annount__web-link-uc{
+
+}
+.annount__add-info{
+    font-size: 1.4rem;
+    color: #0066FF;
+
+}
+.annount__add-info:hover {
+    text-decoration: underline;
+}
+.annount__add-img{
+
+}
+.annount__text-link:hover,
+.annount__web-link-opera-4-5:hover,
+.annount__web-link-opera-8-0:hover,
+.annount__web-link-uc:hover {
+    text-decoration: underline;
+}
+
+/* game-onlion-outstanding */
+.game-online__list{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    font-size: 1.3rem;
+    color: blue;
+
+
+}
+.game-online__item{
+height: 35px;
+padding: 2px;
+border: 1px solid #e1e1e1;
+background-image:linear-gradient(0deg, var(--white-color), #f3f3f3);
+margin: 1px 0;
+
+line-height: 3.5rem;
+overflow: hidden;
+display:block;
+display:-webkit-box;
+-webkit-box-orient:horizontal;
+-webkit-line-clamp: 1;
+
+}
+.game-online__item-img{
+
+}
+.game-online__item-link{
+color: red;
+font-weight: bold;
+text-decoration: none;
+line-height: 35px;
+
+
+
+}
+.game-online__item-link:hover {
+    text-decoration: underline;
+}
+.game-online__item-info{
+font-weight: 500;
+}
+
+.game-online__item-link-else {
+    text-decoration: none;
+    color: var(--red-color);
+    line-height: 35px;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    font-weight: bolder;
+    display: block;
+    margin-left: 50%;
+    transform: translateX(-50%);
+
+}
+.game-online__item-link-else:hover {
+    text-decoration: underline;
+}
+
+     /* update-cap nhat  */
+.update__list{
+    padding: 0;
+    list-style: none;
+    font-size:1.3rem;
+    margin: 0;
+
+  
+
+}
+.update__item{
+
+    margin: 1px;
+
+    background-image:linear-gradient(0deg, var(--white-color), #f3f3f3);
+    border: 1px solid #e1e1e1;
+    height: 35px;
+
+
+}
+
+.update__item-search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.update__item-img{
+    margin-left: 2px;
+}
+.update__item-link{
+    text-decoration: none;
+    color: #0066FF;
+    font-weight: bold;
+    line-height: 35px;
+    display:inline-block;
+    margin-left: 2px;
+ 
+    
+
+}
+.update__item-link:hover {
+    text-decoration:underline;
+}
+.update__item-link-last{
+    text-decoration: none;
+    color: #0066FF;
+
+    line-height: 35px;
+    display:inline-block;
+    margin-left: 2px;
+ 
+}
+
+/* <!-- update__item-select --> */
+
+.update__item-select{
+    display: flex;
+    justify-content:center;
+    padding: 2px 0 ;
+}
+.update__item-select-list{
+
+}
+.update__item-select-item{
+
+}
+
+/* update__item-search */
+.update__item-search{
+    display: flex;
+
+
+
+
+}
+.update__item-form{
+
+    /* margin-left: 50%;
+    transform: translateX(-19%); */
+    /* margin-top: 10px;
+    margin-bottom: 10px; */
+
+
+}
+                  /* footer  */
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-transform: uppercase;
+
+                  }
+.footer__info{
+    font-size: 1.9rem;
+    color: blue;
+    max-width: 320px;
+    text-align: center;
+    margin: 10px 0;
+
+
+}
+
+.footer__info-link{
+    font-size: 1.3rem;
+    color: red;
+    text-decoration: none;
+    margin: 4px 0 12px 0;
+}
